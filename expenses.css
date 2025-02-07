@@ -6,6 +6,10 @@ body {
     background-color: #D59F45;
     background: linear-gradient(to bottom, #d59f45, #f4e1a1);
 }
+#stiff{
+    background: #000;
+    border-radius:10px;
+}
 a{
     text-decoration: none;
     font-size: x-large;
