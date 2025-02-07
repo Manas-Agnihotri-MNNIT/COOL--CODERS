@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    background-image: url(osama-elsayed-vqRMXgVtGXM-unsplash\ \(1\).jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.abc {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: #8b0000;
+    margin-top: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: 20px;
+    padding-inline: 30px;
+    display: flex;
+    color: #000000;
+}
+
+a:hover {
+    color: white;
+}
+
+.XYZ {
+    display: flex;
+    justify-content: space-evenly;
+    gap: inherit;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+.container {
+    background: rgba(255, 215, 0, 0.2);
+    /* Golden transparent */
+    padding: 20px;
+    margin-left: 580px;
+    margin-top: 95px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    border: 3px solid black;
+}
+
+h2 {
+    color: #000000;
+    /* Gold */
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #DAA520;
+    /* Darker gold */
+}
+
+.signup-link {
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
