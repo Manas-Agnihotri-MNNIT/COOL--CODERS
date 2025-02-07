@@ -1,6 +1,5 @@
 
 body {
-    font-family: Arial, sans-serif;
     background-color: #D59F45;
     text-align: center;
     margin: 0;
@@ -8,7 +7,7 @@ body {
 }
 .XYZ {
     display: flex;
-    background-color: #eb5e28;
+    background-color: #14213d;
     gap: inherit;
     height: 2cm;
     justify-content: space-between;
@@ -41,19 +40,9 @@ a{
     display: flex;
     color:#fca311;
 }
-.XYZ:hover {
-    display: flex;
-    background-color: #14213d;
-    gap: inherit;
-    height: 2cm;
-    justify-content:space-between;
-    align-items:center;
-    opacity: 95%;
-
-
+a:hover {
+    color: white;
 }
-
-
 
 h1 {
     color: #000;

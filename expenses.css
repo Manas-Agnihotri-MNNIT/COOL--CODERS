@@ -21,52 +21,33 @@ a:hover {
 #logo{
     color: #f77f00;
 }
-#logo:hover{
-    color: #f28482;
-    
-}
-#stiff{
-    background-color: #800000;
-}
+
 #title{
     text-align: center;
     color:#ad2831;
 }
 .XYZ {
     display: flex;
-    background-color: #eb5e28;
-    gap: inherit;
-    height: 2cm;
-    justify-content: space-between;
-    align-items:center;
-
-
-}
-.XYZ:hover {
-    display: flex;
     background-color: #14213d;
     gap: inherit;
     height: 2cm;
     justify-content: space-between;
     align-items:center;
-    opacity: 95%;
 
 
 }
+
 #nav-cont{
     display: flex;
     
 }
 
 
-#logo{
-
-    display: block;
-    text-align: center;
-    color: #8b0000;
-    
-    font-family:sans-serif;
-}
+    #logo{
+        font-size: xx-large;
+        font-weight: 800;
+        
+    }
 
 .entry-table {
     display: flex;
