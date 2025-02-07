@@ -1,4 +1,51 @@
+
 body {
+    font-family: Arial, sans-serif;
     background-color: #D59F45;
-    background: linear-gradient(to bottom, #d59f45, #f4e1a1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000;
+    font-size: 40px;
+}
+
+.settings-container {
+    background-color: white;
+    width: 500px; 
+    margin: 50px auto;
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.setting {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #800000;
 }
