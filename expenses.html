@@ -4,65 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXPENSES</title>
+    <title>Expense-Tracker</title>
+    <link rel="stylesheet" href="expenses.css">
 </head>
 
 <body>
-    <h2>NEW EXPENSE</h2>
-    <form action="/action.php">
-        <div class="expense name">
-            <label for="Expense Name">Expense Name:</label>
-            <input type="text" placeholder="Expense Name" required>
-        </div>
-        <br>
-        <div class="amount">
-            <label for="amount">Amount:</label>
-            <input type="number" placeholder="Amount" required>
-        </div>
-        <br>
-        <div class="category">
-            <label for="Category">Category:</label>
-            <select name="Category">
-                <option value="Food">Food</option>
-                <option value="Social Life">Social Life</option>
-                <option value="Pets">Pets</option>
-                <option value="Transport">Transport</option>
-                <option value="Household">Household</option>
-                <option value="Education">Education</option>
-                <option value="Others">Others</option>
-            </select>
-        </div>
-        <br>
-        <div class="description">
-            <label for="Description">Description:
-                <input type="text" placeholder="Description" required>
-            </label>
-        </div>
-        <br>
-        <div>
-            <label for="Date">Date:</label>
-            <input type="date" id="expense-date" required />
-        </div>
-        <br>
-        <br>
-        <input type="submit" value="Add Expense">
-        <div class="expense-table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Expense Name</th>
-                        <th>Amount</th>
-                        <th>Category</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <tbody id="expense-list"></tbody>
-            </table>
-            <div class="total-amount">
-                <strong>Total:</strong> ₹<span id="total-amount">0</span>
+    <h1>
+        Today's Expenses
+    </h1>
+    <div id="container">
+        <div class="entry-table">
+            <div id="name">
+                <label for="Expense-entry">Expense-Name:</label>
+                <input type="text" id="expensinp" required>
+            </div>
+            <div id="amount">
+                <label for="amount-entry">Amount:</label>
+                <input type="text" id="amountinp" required>
+            </div>
+            <div id="categoryinp">
+                <label for="Category">Category:</label>
+                <select name="Category">
+                    <option value="Food">Food</option>
+                    <option value="Social Life">Social Life</option>
+                    <option value="Pets">Pets</option>
+                    <option value="Transport">Transport</option>
+                    <option value="Household">Household</option>
+                    <option value="Education">Education</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div id="description">
+                <label for="description-entry">Description:</label>
+                <input type="text" id="descriptioninp" required>
+            </div>
+            <div id="button">
+                <button type="button" onclick="addrow()"> SUBMIT</button>
             </div>
         </div>
+        <div class="image-section">
+            <img src="https://media.giphy.com/media/bO7ab7fElg0AU/giphy.gif?cid=ecf05e47pnwznz7sethr21opi86q9xvgumt6nv5y9n6qhmwr&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                alt="Expense Tracker Animation" style="width: 300px; height: 300px;">
+        </div>
+        <div class="table-loaded">
+            <table id="mytable">
+                <thead>
+                    <tr>
+                        <th>Expense</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                    </tr>
+                    
+                </thead>
+                <tbody class="scrollable-table-body">
 
+                </tbody>
+            </table>
+            <div id="totalContainer">
+                <strong>Total: <span id="totalAmount">₹0</span></strong>
+            </div>
+        </div>
+    </div>
+    <script src="expenses.js"></script>
 </body>
 
 </html>
