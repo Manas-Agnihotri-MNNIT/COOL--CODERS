@@ -27,27 +27,39 @@ body {
 
 }
 
+
 a {
     text-decoration: none;
     font-size: x-large;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-inline: 30px;
     display: flex;
-    color: #000000;
+    color:#fca311;
 }
 
 a:hover {
     color: white;
 }
-
+h1{
+    color: #219ebc;
+}
+h1:hover{
+    color: #f77f00;
+}
 .XYZ {
     display: flex;
-    justify-content: space-evenly;
+    background-color: #14213d;
     gap: inherit;
-    align-items: center;
-    margin-top: 20px;
-    
+    height: 2cm;
+    justify-content: space-between;
+    align-items:center;
 
+
+}
+#nav-cont{
+    display: flex;
+    
 }
 
 
