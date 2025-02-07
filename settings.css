@@ -6,6 +6,54 @@ body {
     margin: 0;
     padding: 0;
 }
+.XYZ {
+    display: flex;
+    background-color: #eb5e28;
+    gap: inherit;
+    height: 2cm;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+#stiff{
+    background: #000;
+    border-radius:10px;
+}
+#logo{
+    color: #a52a2a;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#nav-cont{
+    display: flex;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-inline: 30px;
+    display: flex;
+    color:#fca311;
+}
+.XYZ:hover {
+    display: flex;
+    background-color: #14213d;
+    gap: inherit;
+    height: 2cm;
+    justify-content:space-between;
+    align-items:center;
+    opacity: 95%;
+
+
+}
+
+
 
 h1 {
     color: #000;

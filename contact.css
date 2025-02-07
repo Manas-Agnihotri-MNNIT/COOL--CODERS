@@ -3,6 +3,7 @@ body {
     background: linear-gradient(to bottom, #d59f45, #f4e1a1);
 }
 
+
 body {
     font-family: Arial, sans-serif;
 
@@ -11,24 +12,54 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 38px;
-    font-weight: bold;
-    color: #000000;
-    padding: 15px 30px;
-    display: inline-block;
-    border-radius: 5px;
+a{
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: 10px;
     margin-bottom: 10px;
+    padding-inline: 30px;
+    display: flex;
+    color:#fca311;
+}
+.XYZ {
+    display: flex;
+    background-color: #eb5e28;
+    gap: inherit;
+    height: 2cm;
+    justify-content:space-between;
+    align-items:center;
+}
+#logo{
+    font-size: xx-large;
+    font-weight: 800;
+}
+#stiff{
+    background: #000;
+    border-radius:10px;
+}
+.XYZ:hover {
+    display: flex;
+    background-color: #14213d;
+    gap: inherit;
+    height: 2cm;
+    justify-content:space-between;
+    align-items:center;
+    opacity: 95%;
+
+
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: #33008b;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin-top: 10px; 
+a:hover {
+    color: white;
 }
+#nav-cont{
+    display: flex;
+
+    
+}
+
+
+
 
 .members {
     display: flex;
