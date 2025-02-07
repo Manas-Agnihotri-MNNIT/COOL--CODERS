@@ -4,6 +4,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 .XYZ {
     display: flex;
@@ -19,11 +20,7 @@ body {
     background: #000;
     border-radius:10px;
 }
-#logo{
-    color: #a52a2a;
-    font-size: xx-large;
-    font-weight: 900;
-}
+
 #nav-cont{
     display: flex;
     

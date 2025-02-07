@@ -5,6 +5,7 @@
 body {
     background-color: #D59F45;
     background: linear-gradient(to bottom, #d59f45, #f4e1a1);
+    font-family: Arial, sans-serif;
 }
 #stiff{
     background: #000;
@@ -27,8 +28,9 @@ a:hover {
 }
 
 #title{
+    margin-top: 10px;
     text-align: center;
-    color:#ad2831;
+    color:#000000;
 }
 .XYZ {
     display: flex;
@@ -49,8 +51,7 @@ a:hover {
 
     #logo{
         font-size: xx-large;
-        font-weight: 800;
-        
+
     }
 
 .entry-table {
