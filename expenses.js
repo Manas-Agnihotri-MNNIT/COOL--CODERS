@@ -31,4 +31,18 @@ function addrow() {
     amountinp.value = "";
     descriptioninp.value = "";
     categoryinp.value = "Food"; 
+
 }
+let modebtn=document.querySelector("#mode");
+let currmode="light";
+modebtn.addEventListener("click",()=>{
+    if(currmode==="light"){
+        currmode="dark";
+        document.querySelector("body").classList.add("dark");
+    }else{
+        currmode="light";
+        document.querySelector("body").classList.add("white");
+
+    }
+    console.log("currmode");
+})
