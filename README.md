@@ -7,10 +7,10 @@ We tried to make an expense tracker website where you can add your daily expense
 ---
 
 ## Table of Contents  
--HOME
--EXPENSES
--SETTINGS
--CONTACT US
+- HOME
+- EXPENSES
+- SETTINGS
+- CONTACT US
 ---
 
 ## Technology Stack  
@@ -29,7 +29,7 @@ We tried to make an expense tracker website where you can add your daily expense
 ---
 
 ## Made at  
-[DevJam](https://weekendofcode.computercodingclub.in/)  
+[DevJam](https://camo.githubusercontent.com/4bfcbf699a715aace0792526e87c355b8611c944d10733ac17ed2674ea345af5/68747470733a2f2f692e706f7374696d672e63632f5a3966433637366a2f6465766a616d2e6a7067)
 
 
 
