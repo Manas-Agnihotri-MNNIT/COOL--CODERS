@@ -1,7 +1,3 @@
-body {
-    background-color: #D59F45;
-    
-}
 
 #weekly,#monthly{
     height: 500px;
@@ -10,6 +6,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-weight: bold
 }
 #categry{
     padding-top: 40px;
@@ -57,5 +54,4 @@ a{
 a:hover {
     color: white;
 }
-
 
