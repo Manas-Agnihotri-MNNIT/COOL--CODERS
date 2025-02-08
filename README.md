@@ -2,18 +2,26 @@
 DEVJAM PROJECT - EXPENSE TRACKER
 
 Introduction:
-Brief description of the project
+We tried to make an expense tracker website where you can add your daily expense according to a category and it well be stored in a table. We also tried to store the data of the user under monthly and weekly basis according to different categories, but we could not accomplish it due to incomplete knowledge of backend.
 
 Table of Contents:
-Technology Stack:
-Flutter
-Google Collab
-JavaFX
-Machine Learning
-Contributors:
-Team Name: Code_Pirates
+HOME
+EXPENSES
+SETTINGS
+CONTACT US
 
-Lokesh Wagh
-Mrinal Varshney
-Sumit Verma
+Technology Stack:
+HTML
+CSS
+JS
+NODE
+
+Contributors:
+Team Name: Cool Coders
+[Manas Agnihotri](https://github.com/Manas-Agnihotri-MNNIT)
+[Gaurav Prajapati](https://github.com/gaurav9479)
+
 Made at:
+[Devjam](https://weekendofcode.computercodingclub.in/)
+
+
