@@ -1,3 +1,24 @@
+body {
+    background-color: #D59F45;
+    
+}
+
+#weekly,#monthly{
+    height: 500px;
+    width: 600px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#categry{
+    padding-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 50px;
+    
+}
 *{
     padding: 0%;
     margin:0%;
@@ -36,3 +57,5 @@ a{
 a:hover {
     color: white;
 }
+
+
